@@ -1,0 +1,67 @@
+.col-12 {
+	flex: 100%;
+}
+.col-8 {
+	flex: 66.67%;
+}
+.col-6 {
+	flex: 50%;
+}
+.col-5 {
+	flex: 41.67%;
+}
+.col-4 {
+	flex: 33.33%;
+}
+.col-3 {
+	flex: 25%;
+}
+
+@media screen and (max-width: 1900px) {
+	.col-lg-6 {
+		flex: 50%;
+	}
+	.col-lg-5 {
+		flex: 41.67%;
+	}
+	.col-lg-4 {
+		flex: 33.33%;
+	}
+	.col-lg-3 {
+		flex: 25%;
+	}
+}
+@media screen and (max-width: 1400px) {
+	.col-xl-12 {
+		flex: 100%!important;
+	}
+	.col-xl-6 {
+		flex: 50%;
+	}
+	.col-xl-4 {
+		flex: 33.33%;
+	}
+
+}
+@media screen and (max-width: 1280px) {
+	.col-md-12 {
+		flex: 100%;
+	}
+	.col-md-5 {
+		flex: 41.67%;
+	}
+	.col-md-4 {
+		flex: 33.33%; 
+	}
+}
+@media screen and (max-width: 1024px) {
+	.col-m-12 {
+		flex: 100%;
+	}
+	.col-m-9 {
+		flex: 75%;
+	}
+	.col-m-6 {
+		flex: 50%;
+	}
+}
