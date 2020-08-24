@@ -28,6 +28,10 @@
 		font-size: 46px;
 		line-height: 46px;
 	}
+
+	.awards__img {
+		margin-right: 40px;
+	}
    .convenient__title {
       margin-top: 15px;
    }
@@ -57,10 +61,17 @@
    .speech__quote {
       margin-left: 50px;
       flex: calc(50% - 50px);
-  }
-  .quote {
+   }
+   .quote {
      left: -80px;
-  }
+	}
+	.example__promo {
+		margin-left: 50px;
+	}
+	.example__gallery {
+		grid-template-rows: repeat(4, 260px);
+	}
+
 }
 @media screen and (max-width: 1400px) {
    .container {
@@ -72,6 +83,9 @@
 	}
 	.numbers__text {
 		font-size: 13px;
+	}
+	.awards__img {
+		height: 230px;
 	}
    .convenient__title {
       border: none;
@@ -173,6 +187,9 @@
 		top: 5%;
 		left: 50%;
 	}
+	.awards__content {
+		padding: 0px 40px
+	  }
    .convenient__content {
       flex-wrap: wrap;
    }
@@ -246,7 +263,21 @@
 		font-size: 44px;
 		line-height: 44px;
 	}
-  
+	.awards__content {
+		flex-wrap: wrap;
+	}
+	.awards__item {
+		width: 100%;
+		justify-content: center;
+	}
+	.awards__item + .awards__item {
+		margin-top: 130px;
+	}
+	.awards__content::after  {
+		max-width: 640px;
+		width: 100%;
+		height: 1px;
+	}
    .header__title span {
       font-size: 48px;
       line-height: 60px;
@@ -360,6 +391,15 @@
 	.numbers__content::after {
 		display: none;
 	}
+	.awards__item {
+		flex-direction: column;
+	}
+	.awards__img {
+		margin: 0px 0px 40px 0px;
+	}
+	.awards__content::after  {
+		max-width: 400px;
+	}
    .convenient__title {
       font-size: 28px;
       line-height: 32px;
@@ -415,6 +455,9 @@
    .header__title {
       margin-bottom: 38px;
       text-align: center;
+	}
+	.awards__content {
+		padding: 0px;
    }
    .convenient {
       padding: 45px 0px 0px 0px;
