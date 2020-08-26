@@ -1,67 +1,105 @@
 .col-12 {
-	flex: 100%;
+	-webkit-box-flex: 100%;
+	    -ms-flex: 100%;
+	        flex: 100%;
 }
 .col-8 {
-	flex: 66.67%;
+	-webkit-box-flex: 66.67%;
+	    -ms-flex: 66.67%;
+	        flex: 66.67%;
 }
 .col-6 {
-	flex: 50%;
+	-webkit-box-flex: 50%;
+	    -ms-flex: 50%;
+	        flex: 50%;
 }
 .col-5 {
-	flex: 41.67%;
+	-webkit-box-flex: 41.67%;
+	    -ms-flex: 41.67%;
+	        flex: 41.67%;
 }
 .col-4 {
-	flex: 33.33%;
+	-webkit-box-flex: 33.33%;
+	    -ms-flex: 33.33%;
+	        flex: 33.33%;
 }
 .col-3 {
-	flex: 25%;
+	-webkit-box-flex: 25%;
+	    -ms-flex: 25%;
+	        flex: 25%;
 }
 
 @media screen and (max-width: 1900px) {
 	.col-lg-6 {
-		flex: 50%;
+		-webkit-box-flex: 50%;
+		    -ms-flex: 50%;
+		        flex: 50%;
 	}
 	.col-lg-5 {
-		flex: 41.67%;
+		-webkit-box-flex: 41.67%;
+		    -ms-flex: 41.67%;
+		        flex: 41.67%;
 	}
 	.col-lg-4 {
-		flex: 33.33%;
+		-webkit-box-flex: 33.33%;
+		    -ms-flex: 33.33%;
+		        flex: 33.33%;
 	}
 	.col-lg-3 {
-		flex: 25%;
+		-webkit-box-flex: 25%;
+		    -ms-flex: 25%;
+		        flex: 25%;
 	}
 }
 @media screen and (max-width: 1400px) {
 	.col-xl-12 {
-		flex: 100%!important;
+		-webkit-box-flex: 100%!important;
+		    -ms-flex: 100%!important;
+		        flex: 100%!important;
 	}
 	.col-xl-6 {
-		flex: 50%;
+		-webkit-box-flex: 50%;
+		    -ms-flex: 50%;
+		        flex: 50%;
 	}
 	.col-xl-4 {
-		flex: 33.33%;
+		-webkit-box-flex: 33.33%;
+		    -ms-flex: 33.33%;
+		        flex: 33.33%;
 	}
 
 }
 @media screen and (max-width: 1280px) {
 	.col-md-12 {
-		flex: 100%;
+		-webkit-box-flex: 100%;
+		    -ms-flex: 100%;
+		        flex: 100%;
 	}
 	.col-md-5 {
-		flex: 41.67%;
+		-webkit-box-flex: 41.67%;
+		    -ms-flex: 41.67%;
+		        flex: 41.67%;
 	}
 	.col-md-4 {
-		flex: 33.33%; 
+		-webkit-box-flex: 33.33%;
+		    -ms-flex: 33.33%;
+		        flex: 33.33%; 
 	}
 }
 @media screen and (max-width: 1024px) {
 	.col-m-12 {
-		flex: 100%;
+		-webkit-box-flex: 100%;
+		    -ms-flex: 100%;
+		        flex: 100%;
 	}
 	.col-m-9 {
-		flex: 75%;
+		-webkit-box-flex: 75%;
+		    -ms-flex: 75%;
+		        flex: 75%;
 	}
 	.col-m-6 {
-		flex: 50%;
+		-webkit-box-flex: 50%;
+		    -ms-flex: 50%;
+		        flex: 50%;
 	}
 }
